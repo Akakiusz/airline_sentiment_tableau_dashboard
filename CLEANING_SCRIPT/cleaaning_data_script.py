@@ -7,8 +7,8 @@
  
 import pandas as pd
  
-INPUT_FILE = "Tweets.csv"
-OUTPUT_FILE = "processed_tweets.csv"
+INPUT_FILE = "../data/Tweets.csv"
+OUTPUT_FILE = "../data/processed_tweets.csv"
  
  
 def main():

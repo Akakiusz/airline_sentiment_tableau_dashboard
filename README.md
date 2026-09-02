@@ -15,3 +15,8 @@ The data
 Source: Twitter US Airline Sentiment (Kaggle)
 14,640 tweets about 6 airlines, all from Feb 16–24, 2015
 Sentiment labels are human-annotated, not something I classified myself
+
+# How it's built
+CLEANING_SCRIPT/cleaaning_data_script.py — cleans the raw export, parses timestamps into date/hour/day-of-week, and writes DATASETS/processed_tweets.csv
+That processed CSV gets loaded straight into Tableau
+Dashboard built and published on Tableau Public

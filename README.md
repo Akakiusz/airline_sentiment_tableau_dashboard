@@ -15,9 +15,11 @@ How sentiment shifts by day and hour
 A filterable table so you can dig into individual tweets
 
 # The data Source: 
-Twitter US Airline Sentiment (Kaggle)
-14,640 tweets about 6 airlines, all from Feb 16–24, 2015
-Sentiment labels are human-annotated, not something I classified myself
+Source: [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) (Kaggle, originally collected by CrowdFlower/Figure Eight)
+14,640 tweets about 6 airlines, labeled Feb 16–24, 2015
+Sentiment and negative-reason labels are human-annotated, not inferred
+
+## Known limitations
 
 # How it's built
 CLEANING_SCRIPT/cleaaning_data_script.py — cleans the raw export, parses timestamps into date/hour/day-of-week, and writes DATASETS/processed_tweets.csv
